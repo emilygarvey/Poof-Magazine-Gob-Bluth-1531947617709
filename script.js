@@ -9,3 +9,9 @@ $(".buryButton").click(function() {
 $(".poof button").click(function() {
     $(".poof img").show();
 });
+
+$(".r").click(function() {
+    $(".poof img").hide();
+    $(".bury img").slideDown();
+    $(".aztec img").fadeIn();
+});
