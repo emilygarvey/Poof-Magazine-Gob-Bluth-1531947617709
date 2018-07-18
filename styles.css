@@ -1,0 +1,59 @@
+body {
+    background-color: maroon;
+}
+img {
+    width: 350px;
+    height: 200px;
+}
+.title {
+    background-color: maroon;
+    text-align: center;
+    color: orange;
+    padding: 1px;
+    border: 10px dotted orange;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.magic {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.aztec {
+    text-align: center;
+    border: 10px solid orange;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Chonburi', cursive;
+    font-size: 25px;
+    color: white;
+    width: 350px;
+}
+.bury {
+    text-align: center;
+    border: 10px solid orange;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Chonburi', cursive;
+    font-size: 25px;
+    color: white;
+    width: 350px;
+}
+.poof {
+    text-align: center;
+    border: 10px solid orange;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Chonburi', cursive;
+    font-size: 25px;
+    color: white;
+    width: 350px;
+}
+button {
+    width: 100px;
+    margin: 10px;
+}
