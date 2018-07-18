@@ -34,6 +34,7 @@ img {
     font-size: 25px;
     color: white;
     width: 350px;
+    height: 350px;
 }
 .bury {
     text-align: center;
@@ -45,6 +46,7 @@ img {
     font-size: 25px;
     color: white;
     width: 350px;
+    height: 350px;
 }
 .poof {
     text-align: center;
@@ -56,10 +58,20 @@ img {
     font-size: 25px;
     color: white;
     width: 350px;
+    height: 350px;
 }
 button {
     width: 100px;
     margin: 10px;
+}
+.reset {
+    margin: auto;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.r {
+    font-size: 50px;
+    width: 200px;
 }</style></head>
     <body>
         <div class="title">
@@ -84,6 +96,9 @@ button {
                 <button>Poof!</button>
             </div>
         </div>
+        <div class="reset">
+            <button class="r">Reset</button>
+        </div>
     
 
 <script>
@@ -98,4 +113,10 @@ $(".buryButton").click(function() {
 
 $(".poof button").click(function() {
     $(".poof img").show();
+});
+
+$(".r").click(function() {
+    $(".poof img").hide();
+    $(".bury img").slideDown();
+    $(".aztec img").fadeIn();
 });</script></body></html>
