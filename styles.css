@@ -30,6 +30,7 @@ img {
     font-size: 25px;
     color: white;
     width: 350px;
+    height: 350px;
 }
 .bury {
     text-align: center;
@@ -41,6 +42,7 @@ img {
     font-size: 25px;
     color: white;
     width: 350px;
+    height: 350px;
 }
 .poof {
     text-align: center;
@@ -52,8 +54,18 @@ img {
     font-size: 25px;
     color: white;
     width: 350px;
+    height: 350px;
 }
 button {
     width: 100px;
     margin: 10px;
+}
+.reset {
+    margin: auto;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.r {
+    font-size: 50px;
+    width: 200px;
 }
